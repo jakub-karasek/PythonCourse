@@ -52,7 +52,7 @@ The details of the task specification should be refined independently, for examp
 
 ## Running script
 You can run script with
-python3 ipynb_to_py.py [path_to_input_file]
+***python3 ipynb_to_py.py [path_to_input_file]***
 for example:
 ```bash
 python3 ipynb_to_py.py Zajecia4.ipynb
