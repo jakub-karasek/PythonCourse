@@ -19,8 +19,6 @@ if __name__ == '__main__':
 
         list_of_dicts = []
 
-        print(f"liczba elementów: {len(elements)}")
-
         for element in elements:
             link = element.find('a')
             link_url = urljoin(url, link['href']) if link and link.has_attr('href') else None
