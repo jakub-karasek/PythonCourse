@@ -1,0 +1,59 @@
+TESTY DLA N = 1000000:
+
+jk459158@students:~/ROK2/KursPython/Lab13$ time python3 version1.py 1000000 10000
+Przykładowe elementy: 2/1 1/1
+
+real    0m0,647s
+user    0m0,535s
+sys     0m0,113s
+jk459158@students:~/ROK2/KursPython/Lab13$ time python3 version2.py 1000000 10000
+Przykładowe elementy: 2/1 1/1
+
+real    0m0,513s
+user    0m0,428s
+sys     0m0,085s
+
+TESTY DLA N = 2000000:
+
+jk459158@students:~/ROK2/KursPython/Lab13$ time python3 version1.py 2000000 10000
+Przykładowe elementy: 2/1 1/1
+
+real    0m1,233s
+user    0m1,066s
+sys     0m0,166s
+jk459158@students:~/ROK2/KursPython/Lab13$ time python3 version2.py 2000000 10000
+Przykładowe elementy: 2/1 1/1
+
+real    0m0,971s
+user    0m0,865s
+sys     0m0,102s
+
+TESTY DLA N = 5000000:
+
+jk459158@students:~/ROK2/KursPython/Lab13$ time python3 version1.py 5000000 10000
+Przykładowe elementy: 2/1 1/1
+
+real    0m2,981s
+user    0m2,672s
+sys     0m0,306s
+jk459158@students:~/ROK2/KursPython/Lab13$ time python3 version2.py 5000000 10000
+Przykładowe elementy: 2/1 1/1
+
+real    0m2,385s
+user    0m2,196s
+sys     0m0,189s
+
+TESTY DLA N = 10000000:
+
+jk459158@students:~/ROK2/KursPython/Lab13$ time python3 version1.py 10000000 10000
+Przykładowe elementy: 2/1 1/1
+
+real    0m5,912s
+user    0m5,346s
+sys     0m0,565s
+jk459158@students:~/ROK2/KursPython/Lab13$ time python3 version2.py 10000000 10000
+Przykładowe elementy: 2/1 1/1
+
+real    0m4,790s
+user    0m4,415s
+sys     0m0,365s
